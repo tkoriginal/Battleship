@@ -4,11 +4,26 @@
   "description": "Battleship app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "Battleship"
   ],
   "author": "Tauqueer Khan",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkoriginal/Battleship.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tkoriginal/Battleship/issues"
+  },
+  "homepage": "https://github.com/tkoriginal/Battleship#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
 }
